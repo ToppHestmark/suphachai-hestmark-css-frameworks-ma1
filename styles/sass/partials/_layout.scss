@@ -1,4 +1,6 @@
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -22,6 +24,7 @@ body {
 
   &__header h1 {
     font-weight: 600;
+    color: $color-font;
   }
 
   &__cardWrapper,
@@ -42,19 +45,3 @@ body {
     border: 3px solid white;
   }
 }
-
-// .container {
-//   max-width: 1170px;
-//   margin: 0 auto;
-//   flex: 1 0 auto;
-// }
-
-// .grid {
-//   display: flex;
-//   flex-wrap: wrap;
-
-//   &__item {
-//     margin: 0.5em;
-//     max-width: 250px;
-//   }
-// }

@@ -3,12 +3,24 @@
   width: 100vw;
   position: absolute;
 
+  &__toggler {
+    border: none;
+    box-shadow: none !important;
+  }
+
   &__brand {
     font-weight: 800;
     font-size: 1.5rem;
+    color: $color-nav-brand !important;
+  }
+
+  &__link:hover {
+    color: $nav-link-hover-color !important;
   }
 
   &__link--active {
     color: $primary !important;
   }
 }
+
+// Not sure why I had to use so many '!importants' here, maybe I placed the imported files in the style.scss in a wrong order or something else. But still couldn't figured it out after so many hours of attemps.
