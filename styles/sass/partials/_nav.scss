@@ -2,6 +2,7 @@
   background-color: $color-vanilla;
   width: 100vw;
   position: absolute;
+  z-index: 9;
 
   &__toggler {
     border: none;
@@ -20,6 +21,11 @@
 
   &__link--active {
     color: $primary !important;
+  }
+  @media screen and (max-width: 992px) {
+    &__links {
+      padding: 2.5rem 0;
+    }
   }
 }
 

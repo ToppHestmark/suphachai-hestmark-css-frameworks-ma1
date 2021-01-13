@@ -1,10 +1,23 @@
-footer {
-  // width: 100%;
-  // display: flex;
-  // flex-shrink: 0;
-  // justify-content: space-between;
-  // margin-top: 2rem;
-  // font-size: 0.8em;
-  // color: #8d8d8d;
-  // padding: 0.5em;
+.footer {
+  background-color: $color-vanilla;
+  position: absolute;
+  bottom: 0;
+
+  &__wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+      text-align: center;
+      background-color: white;
+    }
+  }
+
+  &__wrapperItem p {
+    color: $color-footer;
+    margin: 1.5rem 0;
+  }
 }
