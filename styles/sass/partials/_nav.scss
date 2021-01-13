@@ -1,5 +1,7 @@
 .nav {
   background-color: $color-vanilla;
+  width: 100vw;
+  position: absolute;
 
   &__brand {
     font-weight: 800;

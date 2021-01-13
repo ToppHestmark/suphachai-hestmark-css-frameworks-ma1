@@ -10095,14 +10095,18 @@ body {
   flex-direction: column;
 }
 
-.container {
-  max-width: 1170px;
-  margin: 0 auto;
-  flex: 1 0 auto;
+.home__header {
+  margin-top: 4rem;
+}
+
+.home__header h1, .home__header .h1 {
+  font-weight: 600;
 }
 
 .nav {
   background-color: #f4f3ee;
+  width: 100vw;
+  position: absolute;
 }
 
 .nav__brand {

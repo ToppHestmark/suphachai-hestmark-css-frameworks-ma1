@@ -15,11 +15,21 @@ body {
   flex-direction: column;
 }
 
-.container {
-  max-width: 1170px;
-  margin: 0 auto;
-  flex: 1 0 auto;
+.home {
+  &__header {
+    margin-top: 4rem;
+  }
+
+  &__header h1 {
+    font-weight: 600;
+  }
 }
+
+// .container {
+//   max-width: 1170px;
+//   margin: 0 auto;
+//   flex: 1 0 auto;
+// }
 
 // .grid {
 //   display: flex;
