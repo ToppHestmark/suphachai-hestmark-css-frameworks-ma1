@@ -23,6 +23,24 @@ body {
   &__header h1 {
     font-weight: 600;
   }
+
+  &__cardWrapper,
+  &__cardBody {
+    border-radius: 20px;
+  }
+
+  &__cardBody {
+    height: 16rem;
+  }
+
+  &__soldOut {
+    border: 3px solid $primary;
+  }
+
+  &__special {
+    background-color: $primary;
+    border: 3px solid white;
+  }
 }
 
 // .container {
