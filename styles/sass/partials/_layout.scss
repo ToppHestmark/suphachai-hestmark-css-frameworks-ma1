@@ -24,6 +24,10 @@ body::-webkit-scrollbar {
 }
 
 .home {
+  &__wrapper {
+    padding-bottom: 5rem;
+  }
+
   &__header {
     margin-top: 4rem;
   }

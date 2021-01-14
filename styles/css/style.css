@@ -10107,6 +10107,10 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+.home__wrapper {
+  padding-bottom: 5rem;
+}
+
 .home__header {
   margin-top: 4rem;
 }
@@ -10175,13 +10179,11 @@ body::-webkit-scrollbar {
   background-color: #f4f3ee;
   margin-top: 6rem;
   padding: 0.8rem 0;
-  bottom: 0;
 }
 
 @media screen and (max-width: 768px) {
   .footer {
     background-color: white;
-    margin-top: 12rem;
   }
 }
 
