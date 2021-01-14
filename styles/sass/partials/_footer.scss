@@ -1,7 +1,13 @@
 .footer {
   background-color: $color-vanilla;
-  position: absolute;
+  margin-top: 6rem;
+  padding: 0.8rem 0;
   bottom: 0;
+
+  @media screen and (max-width: 768px) {
+    background-color: white;
+    margin-top: 12rem;
+  }
 
   &__wrapper {
     width: 100%;
@@ -12,12 +18,15 @@
     @media screen and (max-width: 768px) {
       flex-direction: column;
       text-align: center;
-      background-color: white;
     }
   }
 
   &__wrapperItem p {
     color: $color-footer;
-    margin: 1.5rem 0;
+    margin: 0.6rem 0;
+
+    @media screen and (max-width: 768px) {
+      margin: 0.3rem 0;
+    }
   }
 }

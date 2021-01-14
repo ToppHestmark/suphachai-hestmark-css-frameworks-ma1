@@ -10100,9 +10100,7 @@ body {
   display: flex;
   flex-direction: column;
   -ms-overflow-style: none;
-  /* IE and Edge */
   scrollbar-width: none;
-  /* Firefox */
 }
 
 body::-webkit-scrollbar {
@@ -10124,6 +10122,8 @@ body::-webkit-scrollbar {
 
 .home__cardBody {
   height: 16rem;
+  background-color: #f4f3ee;
+  border: 3px solid #f4f3ee;
   box-shadow: 2px 5px 36px -17px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 2px 5px 36px -17px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 2px 5px 36px -17px rgba(0, 0, 0, 0.75);
@@ -10131,6 +10131,7 @@ body::-webkit-scrollbar {
 
 .home__soldOut {
   border: 3px solid #c32c72;
+  background-color: white;
 }
 
 .home__special {
@@ -10172,8 +10173,16 @@ body::-webkit-scrollbar {
 
 .footer {
   background-color: #f4f3ee;
-  position: absolute;
+  margin-top: 6rem;
+  padding: 0.8rem 0;
   bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    background-color: white;
+    margin-top: 12rem;
+  }
 }
 
 .footer__wrapper {
@@ -10187,12 +10196,17 @@ body::-webkit-scrollbar {
   .footer__wrapper {
     flex-direction: column;
     text-align: center;
-    background-color: white;
   }
 }
 
 .footer__wrapperItem p {
   color: #8d8d8d;
-  margin: 1.5rem 0;
+  margin: 0.6rem 0;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__wrapperItem p {
+    margin: 0.3rem 0;
+  }
 }
 /*# sourceMappingURL=style.css.map */
