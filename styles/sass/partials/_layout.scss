@@ -49,6 +49,10 @@ body::-webkit-scrollbar {
     box-shadow: 2px 5px 36px -17px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 2px 5px 36px -17px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 2px 5px 36px -17px rgba(0, 0, 0, 0.75);
+
+    @media screen and (max-width: 768px) {
+      height: 26rem;
+    }
   }
 
   &__soldOut {
